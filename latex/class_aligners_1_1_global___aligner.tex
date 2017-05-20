@@ -1,0 +1,104 @@
+\hypertarget{class_aligners_1_1_global___aligner}{}\section{Aligners.\+Global\+\_\+\+Aligner Class Reference}
+\label{class_aligners_1_1_global___aligner}\index{Aligners.\+Global\+\_\+\+Aligner@{Aligners.\+Global\+\_\+\+Aligner}}
+Inheritance diagram for Aligners.\+Global\+\_\+\+Aligner\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_aligners_1_1_global___aligner}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{class_aligners_1_1_global___aligner_a0ee9494eaed0fec52d8c2c1c95fc646d}{\+\_\+\+\_\+init\+\_\+\+\_\+} (self, \hyperlink{class_aligners_1_1_global___aligner_a04780fa6727d419f44ce9d577b8b651f}{seq1}, \hyperlink{class_aligners_1_1_global___aligner_a19eaae2895d2246e10543689957a0d36}{seq2}, \hyperlink{class_aligners_1_1_global___aligner_a718075378ef694647d0f4c42ecb7adf9}{substitution\+\_\+matrix}, \hyperlink{class_aligners_1_1_global___aligner_a2dccafe7e89339e5b1e7354de601c2cb}{penalty}, \hyperlink{class_aligners_1_1_global___aligner_aa5a4464984be91c2a0407719a1c1a85d}{ext\+\_\+penalty}=None)
+\item 
+def \hyperlink{class_aligners_1_1_global___aligner_ae3a7749813381c746e7d3245efbfd0de}{get\+\_\+global\+\_\+matrix} (self)
+\item 
+def \hyperlink{class_aligners_1_1_global___aligner_ae7b1909e0e0262127f767691b20b82e0}{get\+\_\+global\+\_\+alignment} (self)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_aligners_1_1_global___aligner_a04780fa6727d419f44ce9d577b8b651f}{seq1}
+\item 
+\hyperlink{class_aligners_1_1_global___aligner_a19eaae2895d2246e10543689957a0d36}{seq2}
+\item 
+\hyperlink{class_aligners_1_1_global___aligner_a2dccafe7e89339e5b1e7354de601c2cb}{penalty}
+\item 
+\hyperlink{class_aligners_1_1_global___aligner_aa5a4464984be91c2a0407719a1c1a85d}{ext\+\_\+penalty}
+\item 
+\hyperlink{class_aligners_1_1_global___aligner_a718075378ef694647d0f4c42ecb7adf9}{substitution\+\_\+matrix}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Class Global_Aligner is created to build a global alignment
+scoring matrix and make a global alignment of two sequences
+of amino acids with linear or affine gap penalty.
+(If linear one needed do not fill in the last argument)
+\end{DoxyVerb}
+ 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_aligners_1_1_global___aligner_a0ee9494eaed0fec52d8c2c1c95fc646d}\label{class_aligners_1_1_global___aligner_a0ee9494eaed0fec52d8c2c1c95fc646d}} 
+\index{Aligners\+::\+Global\+\_\+\+Aligner@{Aligners\+::\+Global\+\_\+\+Aligner}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!Aligners\+::\+Global\+\_\+\+Aligner@{Aligners\+::\+Global\+\_\+\+Aligner}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Aligners.\+Global\+\_\+\+Aligner.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{seq1,  }\item[{}]{seq2,  }\item[{}]{substitution\+\_\+matrix,  }\item[{}]{penalty,  }\item[{}]{ext\+\_\+penalty = {\ttfamily None} }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_aligners_1_1_global___aligner_ae7b1909e0e0262127f767691b20b82e0}\label{class_aligners_1_1_global___aligner_ae7b1909e0e0262127f767691b20b82e0}} 
+\index{Aligners\+::\+Global\+\_\+\+Aligner@{Aligners\+::\+Global\+\_\+\+Aligner}!get\+\_\+global\+\_\+alignment@{get\+\_\+global\+\_\+alignment}}
+\index{get\+\_\+global\+\_\+alignment@{get\+\_\+global\+\_\+alignment}!Aligners\+::\+Global\+\_\+\+Aligner@{Aligners\+::\+Global\+\_\+\+Aligner}}
+\subsubsection{\texorpdfstring{get\+\_\+global\+\_\+alignment()}{get\_global\_alignment()}}
+{\footnotesize\ttfamily def Aligners.\+Global\+\_\+\+Aligner.\+get\+\_\+global\+\_\+alignment (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}global alignment of two sequences. Returns a tuple
+(align-seq1, align-seq2, align-score)
+\end{DoxyVerb}
+ \mbox{\Hypertarget{class_aligners_1_1_global___aligner_ae3a7749813381c746e7d3245efbfd0de}\label{class_aligners_1_1_global___aligner_ae3a7749813381c746e7d3245efbfd0de}} 
+\index{Aligners\+::\+Global\+\_\+\+Aligner@{Aligners\+::\+Global\+\_\+\+Aligner}!get\+\_\+global\+\_\+matrix@{get\+\_\+global\+\_\+matrix}}
+\index{get\+\_\+global\+\_\+matrix@{get\+\_\+global\+\_\+matrix}!Aligners\+::\+Global\+\_\+\+Aligner@{Aligners\+::\+Global\+\_\+\+Aligner}}
+\subsubsection{\texorpdfstring{get\+\_\+global\+\_\+matrix()}{get\_global\_matrix()}}
+{\footnotesize\ttfamily def Aligners.\+Global\+\_\+\+Aligner.\+get\+\_\+global\+\_\+matrix (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}building a global alignment scoring matrix\end{DoxyVerb}
+ 
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_aligners_1_1_global___aligner_aa5a4464984be91c2a0407719a1c1a85d}\label{class_aligners_1_1_global___aligner_aa5a4464984be91c2a0407719a1c1a85d}} 
+\index{Aligners\+::\+Global\+\_\+\+Aligner@{Aligners\+::\+Global\+\_\+\+Aligner}!ext\+\_\+penalty@{ext\+\_\+penalty}}
+\index{ext\+\_\+penalty@{ext\+\_\+penalty}!Aligners\+::\+Global\+\_\+\+Aligner@{Aligners\+::\+Global\+\_\+\+Aligner}}
+\subsubsection{\texorpdfstring{ext\+\_\+penalty}{ext\_penalty}}
+{\footnotesize\ttfamily Aligners.\+Global\+\_\+\+Aligner.\+ext\+\_\+penalty}
+
+\mbox{\Hypertarget{class_aligners_1_1_global___aligner_a2dccafe7e89339e5b1e7354de601c2cb}\label{class_aligners_1_1_global___aligner_a2dccafe7e89339e5b1e7354de601c2cb}} 
+\index{Aligners\+::\+Global\+\_\+\+Aligner@{Aligners\+::\+Global\+\_\+\+Aligner}!penalty@{penalty}}
+\index{penalty@{penalty}!Aligners\+::\+Global\+\_\+\+Aligner@{Aligners\+::\+Global\+\_\+\+Aligner}}
+\subsubsection{\texorpdfstring{penalty}{penalty}}
+{\footnotesize\ttfamily Aligners.\+Global\+\_\+\+Aligner.\+penalty}
+
+\mbox{\Hypertarget{class_aligners_1_1_global___aligner_a04780fa6727d419f44ce9d577b8b651f}\label{class_aligners_1_1_global___aligner_a04780fa6727d419f44ce9d577b8b651f}} 
+\index{Aligners\+::\+Global\+\_\+\+Aligner@{Aligners\+::\+Global\+\_\+\+Aligner}!seq1@{seq1}}
+\index{seq1@{seq1}!Aligners\+::\+Global\+\_\+\+Aligner@{Aligners\+::\+Global\+\_\+\+Aligner}}
+\subsubsection{\texorpdfstring{seq1}{seq1}}
+{\footnotesize\ttfamily Aligners.\+Global\+\_\+\+Aligner.\+seq1}
+
+\mbox{\Hypertarget{class_aligners_1_1_global___aligner_a19eaae2895d2246e10543689957a0d36}\label{class_aligners_1_1_global___aligner_a19eaae2895d2246e10543689957a0d36}} 
+\index{Aligners\+::\+Global\+\_\+\+Aligner@{Aligners\+::\+Global\+\_\+\+Aligner}!seq2@{seq2}}
+\index{seq2@{seq2}!Aligners\+::\+Global\+\_\+\+Aligner@{Aligners\+::\+Global\+\_\+\+Aligner}}
+\subsubsection{\texorpdfstring{seq2}{seq2}}
+{\footnotesize\ttfamily Aligners.\+Global\+\_\+\+Aligner.\+seq2}
+
+\mbox{\Hypertarget{class_aligners_1_1_global___aligner_a718075378ef694647d0f4c42ecb7adf9}\label{class_aligners_1_1_global___aligner_a718075378ef694647d0f4c42ecb7adf9}} 
+\index{Aligners\+::\+Global\+\_\+\+Aligner@{Aligners\+::\+Global\+\_\+\+Aligner}!substitution\+\_\+matrix@{substitution\+\_\+matrix}}
+\index{substitution\+\_\+matrix@{substitution\+\_\+matrix}!Aligners\+::\+Global\+\_\+\+Aligner@{Aligners\+::\+Global\+\_\+\+Aligner}}
+\subsubsection{\texorpdfstring{substitution\+\_\+matrix}{substitution\_matrix}}
+{\footnotesize\ttfamily Aligners.\+Global\+\_\+\+Aligner.\+substitution\+\_\+matrix}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/ed/dev/mm/aligner/\hyperlink{_aligners_8py}{Aligners.\+py}\end{DoxyCompactItemize}
